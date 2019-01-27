@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.yu.shop.dao.DeliverMapper">
+  <resultMap id="BaseResultMap" type="cn.yu.shop.pojo.Deliver">
+    <id column="deliverId" jdbcType="INTEGER" property="deliverid" />
+    <result column="orderId" jdbcType="INTEGER" property="orderid" />
+    <result column="sendId" jdbcType="INTEGER" property="sendid" />
+  </resultMap>
+
+</mapper>

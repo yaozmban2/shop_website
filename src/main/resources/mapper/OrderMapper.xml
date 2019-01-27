@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.yu.shop.dao.OrderMapper">
+  <resultMap id="BaseResultMap" type="cn.yu.shop.pojo.Order">
+    <id column="orderId" jdbcType="INTEGER" property="orderid" />
+    <result column="userId" jdbcType="INTEGER" property="userid" />
+    <result column="orderTime" jdbcType="TIMESTAMP" property="ordertime" />
+    <result column="oldPrice" jdbcType="REAL" property="oldprice" />
+    <result column="newPrice" jdbcType="REAL" property="newprice" />
+    <result column="isPay" jdbcType="BIT" property="ispay" />
+    <result column="isSend" jdbcType="BIT" property="issend" />
+    <result column="isReceive" jdbcType="BIT" property="isreceive" />
+    <result column="isComplete" jdbcType="BIT" property="iscomplete" />
+    <result column="addressId" jdbcType="INTEGER" property="addressid" />
+  </resultMap>
+
+</mapper>

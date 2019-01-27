@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.yu.shop.dao.FavoriteMapper">
+  <resultMap id="BaseResultMap" type="cn.yu.shop.pojo.Favorite">
+    <id column="userId" jdbcType="INTEGER" property="userid" />
+    <id column="goodsId" jdbcType="INTEGER" property="goodsid" />
+    <result column="collectTime" jdbcType="TIMESTAMP" property="collecttime" />
+  </resultMap>
+
+</mapper>

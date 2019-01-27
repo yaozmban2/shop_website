@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.yu.shop.dao.AddressMapper">
+  <resultMap id="BaseResultMap" type="cn.yu.shop.pojo.Address">
+    <id column="addressID" jdbcType="INTEGER" property="addressid" />
+    <result column="userId" jdbcType="INTEGER" property="userid" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="county" jdbcType="VARCHAR" property="county" />
+    <result column="detailAddr" jdbcType="VARCHAR" property="detailaddr" />
+    <result column="conName" jdbcType="VARCHAR" property="conname" />
+    <result column="conTel" jdbcType="VARCHAR" property="contel" />
+  </resultMap>
+
+</mapper>
